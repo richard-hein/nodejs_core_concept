@@ -1,0 +1,15 @@
+[✅ You are here]
+├── net module — TCP servers & sockets
+├── EventEmitter — .on(), events, handlers
+├── Streams — readable/writable (sockets are streams)
+│
+[Coming next — natural progressions]
+├── Stream piping & backpressure
+├── Buffer & encoding (you're already using .toString("utf-8"))
+├── Error handling patterns (just learned ECONNRESET)
+│
+[Bigger concepts ahead]
+├── HTTP module (built on top of net)
+├── fs streams — file read/write
+├── Worker threads / child_process
+└── Event loop deep dive — why Node is single-threaded but async
