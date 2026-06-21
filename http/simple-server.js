@@ -30,7 +30,7 @@ server.on("request", (request, response) => {
     response.end(
       JSON.stringify({
         message: `Post with title ${data.title} was created by ${name}`,
-      }),
+      })
     );
   });
 });

@@ -1,9 +1,21 @@
-const http = require("node:http");
+const Butter = require("../butter");
 
-const server = http.createServer();
+const PORT = 8000;
 
-server.on("request", (request, response) => {});
+const server = new Butter();
 
-server.listen(9000, () => {
-  console.log("Web sever is live at http://localhost:9000");
+server.route("get", "/", (req, res) => {
+  res.sendFile("./public/index.html", "text/html");
+});
+
+server.route("get", "/styles.css", (req, res) => {
+  res.sendFile("./public/styles.css", "text/css");
+});
+
+server.route("get", "/scripts.js", (req, res) => {
+  res.sendFile("./public/scripts.js", "text/javascript");
+});
+
+server.listen(PORT, () => {
+  console.log(`Server has started on port ${PORT}`);
 });

@@ -36,5 +36,5 @@ request.end(
   JSON.stringify({
     title: "Title of my post",
     body: "This is some text and more and more.",
-  }),
+  })
 );
