@@ -1,0 +1,2 @@
+The poster static files are not included in the final and starter zip files. 
+Please download the poster-front.zip file from the "Getting Ready for Our Next Project" video's resource section, and then unzip that and copy/paste the 3 files over here into this public folder.

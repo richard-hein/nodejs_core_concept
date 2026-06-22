@@ -31,7 +31,7 @@ proxy.on("request", (clientRequest, proxyResponse) => {
     // Set the status code and headers for the response that we are sending to the client
     proxyResponse.writeHead(
       mainServerResponse.statusCode,
-      mainServerResponse.headers,
+      mainServerResponse.headers
     );
 
     // Finally write the body of the main server's response to the body of proxy's response
