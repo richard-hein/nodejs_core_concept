@@ -1,0 +1,8 @@
+This is some text that I want.Got this data from standard in:  : NodeJs
+
+Got this data from standard in: , Java
+
+Got this data from standard in: I love Java
+
+Got this data from standard in: I love NodeJs
+

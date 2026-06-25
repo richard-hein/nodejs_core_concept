@@ -1,0 +1,7 @@
+0  - stdin (e.g node playground 1>output.txt)
+1  - stdout
+2  - stderr
+
+Piping - | > <  (e.g: echo "text" | node playground.js )
+Append - >>
+Output Redirection in bash
