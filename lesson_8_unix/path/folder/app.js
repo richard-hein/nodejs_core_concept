@@ -7,4 +7,5 @@ console.log(process.cwd());
 const content = fs.readFileSync(path.join(__dirname, "./text.txt"), "utf8");
 console.log(content);
 
-// What do these relative paths depend on?
+// Absolute Path start with / and can run any other path
+// Relative Path don't start with / and only can run in the current working directory
