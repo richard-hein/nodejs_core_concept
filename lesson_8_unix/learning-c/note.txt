@@ -1,0 +1,10 @@
+MEMORY ALLOCATION
+-stack memory (limited depend upon compiler & OS - 8MB , don't need to free)
+-heap memory (unlimited but need to free after being used)
+-pointer
+-address
+-reference
+
+size_t
+type casting
+
