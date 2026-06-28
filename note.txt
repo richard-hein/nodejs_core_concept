@@ -1,0 +1,4 @@
+PM2 - Node Process Manager For Production
+PM2 cmd - pm2 start server.js -i max
+        - pm2 monit
+node server.js & (run server in the background)
